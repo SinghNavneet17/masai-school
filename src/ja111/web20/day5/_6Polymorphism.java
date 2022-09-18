@@ -6,7 +6,9 @@ public class _6Polymorphism {
         System.out.println(sum.add(2,3, 4));
         System.out.println(sum.add(3,4));
         System.out.println(9);
-        System.out.println(sum.square((byte) 5.9));
+        System.out.println(sum.square(5); //  it will call the sum method with Integer parameter
+        System.out.println(sum.square((byte) 5.9));// it will call the sum method with Byte parameter
+        
     }
 }
 
